@@ -1,0 +1,87 @@
+.home {
+  background-color: #dde6ed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 45%;
+  height: 90vh;
+}
+.container__img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem;
+}
+.container__img__active {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.lang {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lang__title {
+  font-family: "Rubik", sans-serif;
+  font-size: large;
+  color: #526d82;
+}
+.lang__card {
+  width: 25%;
+  margin: 1rem;
+}
+.lang__card__active {
+  font-family: "Rubik", sans-serif;
+  color: #526d82;
+  font-size: large;
+  margin: 5px;
+}
+
+.profile {
+  width: 100%;
+  margin-top: 1rem;
+}
+.profile__title {
+  font-family: "Aesthetic";
+  font-size: 45px;
+  color: #526d82;
+}
+.profile__title__pf {
+  margin-top: 1rem;
+  font-family: "Rubik", sans-serif;
+  color: #526d82;
+  font-size: x-large;
+}
+.profile__title__ds {
+  font-family: "Rubik", sans-serif;
+  color: black;
+  font-size: larger;
+}
+
+.social {
+  width: 100%;
+  height: 50%;
+}
+.social__title {
+  font-family: "Rubik", sans-serif;
+}/*# sourceMappingURL=Home.css.map */
